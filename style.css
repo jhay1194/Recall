@@ -430,7 +430,10 @@ footer .footer-content .terms-policy span{
 @media only screen and ( min-width: 1200px){
     .container {
         max-width: 120em;
-        margin: 3.3em 12em;
+        margin: auto;
+    }
+    .nav-items{
+        margin-top: 3.3em;
     }
     .feedback {
         gap: 6.9em;
