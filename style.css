@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700&family=Playfair+Display&family=Poppins:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.container{
+    margin: 2.4em 3.5em 0 2.6em;
+}
+/* Hero Section */
+    .nav-items{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 5em;
+    }
+    .nav-items > .logo {
+        font-family: 'Nunito', sans-serif;
+        font-size: 2.8rem;
+        font-weight: 700;
+        color: #7E00FD;
+    }
+    .nav-items .tabs {
+        display: flex;
+        font-family: 'Nunito', sans-serif;
+        font-size: 1.6rem;
+        font-weight: 400;
+        gap: 0.73em;
+    }
+    .nav-items .tabs > a:first-child{
+        text-decoration: underline;
+    }
+    /* for tab & desktop mode */
+    .nav-items .dl-btn {
+        display: none;
+        background-color: #7E00FD;
+        font-size: 2rem;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 700;
+        color: white;
+        padding: 0.55em 1em;
+        border-radius: 0.15em;
+        border-style: none;
+    }
+    .hero .details {
+        text-align: center;
+        margin-bottom: 3.5em;
+    }
+    .hero .details .main-cap {
+        font-family: 'Nunito', sans-serif;
+        font-size: 3.2rem;
+        font-weight: 700;
+        line-height: 3.66rem;
+        margin-bottom: 1em;
+    } 
+    .hero .details span {
+        font-family: 'Nunito', sans-serif;
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 2.59rem;
+        /* padding-left: 0.43em; */
+    } 
+    .hero .btn-holder{
+        display: flex;
+        /* padding-left: 2.8em; */
+        align-content: center;
+        margin-bottom: 3.5em;
+    }
+    .hero .btn-holder img {
+        margin: 0 auto;
+    }
+    .hero .wrapper{
+        display: flex;
+        align-content: center;
+        /* top: 3em; */
+    }
+    .hero .wrapper img {
+        position: relative;
+        margin: 0 auto;
+        margin-bottom:-7em;
+        z-index: 1;
+    }
+/* End Hero Section */
+
+/* Features Section */
+    .features {
+        /* position: absolute; */
+        background-color: #7E00FD; 
+        transform: skewY(7deg);
+        font-family: 'Nunito', sans-serif;
+        color: white;
+        padding: 4em 0;
+        margin-bottom: 10em;
+    }
+    .features .content {
+        transform: skewY(-7deg);
+    }
+    .features .content .article h2 {
+        font-size: 2.6rem;
+        font-weight: 700;
+        margin-bottom: 0.42em;
+    }
+    .features .content .article p {
+        font-size: 1.6rem;
+        font-weight: 500;
+        margin-bottom: 2.88em;
+    }
+    .features .content .article img{
+        width: 3.5em;
+        height: 3.5em;
+    }
+/* End Features Section */
+.zigzag-wrap {
+    display: none;
+}
+/* Feedback Section */
+
+.feedback .user-comment .main-comment {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.8rem;
+    line-height: 3.73rem;
+    font-weight: 400;
+    margin-bottom: 0.79em;
+}
+.feedback .user-comment .sub-comment {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2.63rem;
+    font-weight: 400;
+    margin-bottom: 2.69em;
+}
+.feedback .user-comment {
+    margin-bottom: 2.69em;
+}
+.feedback .user-image img {
+    margin: 0 auto; 
+    border-radius: 1.2em;
+    width: 100%;
+    height: 17.7em;
+    object-fit: cover;
+    margin-bottom: 3em;
+}
+.feedback .user-info {
+    display: flex;
+    flex-direction: column;
+}
+.feedback .user-info .name{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.feedback .user-info .user-website {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #5392BF;
+}
+.feedback .user-info .soc-icons {
+    margin-top: 1.22em;
+    display: flex;
+    gap: 1.5em;
+}
+.feedback .user-info .soc-icons .insta {
+    background-color: black;
+    width: 2.7em;
+    height: 2.7em;
+    border-radius: 50%;
+    color: white;
+}
+.feedback .user-info .soc-icons i{
+    padding: 0.40em;
+    font-size: 1.5em;
+}
+.feedback .user-info .soc-icons .twitter {
+    background-color: black;
+    width: 2.7em;
+    height: 2.7em;
+    border-radius: 50%;
+    color: white;
+}
+.feedback {
+    margin-bottom: 8em;
+}
+/* End Feedback Section */
+
+/* Footer Section */
+footer {
+    background-color: #EDEDED;
+    padding-top: 0.1em;
+    padding-bottom: 6.4em;
+}
+footer .footer-content .foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2.2em;
+}
+footer .footer-content .foot > .logo {
+    font-family: 'Nunito', sans-serif;
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #7E00FD;
+}
+footer .footer-content .foot .tabs {
+    display: flex;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    gap: 0.73em;
+}
+footer .footer-content .foot .tabs > a:first-child{
+    text-decoration: underline;
+}
+footer .footer-content img {
+    margin-bottom: 3.1em;
+}
+footer .footer-content .terms-policy span{
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-decoration: underline;
+}
+/* End Footer Section */
+
+/* Media Query */
+@media only screen and ( min-width: 800px){
+    .container{
+        margin: 3.3em 6.6em 0 6.3em;
+    }    
+    .nav-items{
+        display: flex;
+        /* justify-content: space-around; */
+        align-items: center;
+        margin-bottom: 12.4em;
+    }
+    .nav-items .dl-btn {
+        display: block;
+    }
+    .hero {
+        display: flex;
+        gap: 4.1em;
+    }
+    .hero .details-wrapper .details{
+        text-align: left;
+        /* padding-right: 30em; */
+    }
+    .hero .details-wrapper .details h1{
+        font-size: 5.1rem;
+        line-height: 5.04rem;
+        margin-bottom: 1.24em;
+    }
+    .hero .details-wrapper .details span{
+        font-size: 2.8rem;
+        line-height: 3.62rem;
+        margin-bottom: 1.54em;
+    }
+    .hero .wrapper{
+        /* background-color: #5392BF; */
+        display: flex;
+        align-content: center;
+        position: relative;
+        width: 32em;
+    }
+    .hero .wrapper img {
+        /* margin: 0 auto; */
+        margin-bottom:-7em;
+        z-index: 1;
+        object-fit: cover;
+        object-position: 0 10%;
+    }
+    .hero .btn-holder img {
+        margin: 0;
+        width: 41.2em;
+        height: 6.2em;
+        margin-bottom: 6.2em;
+    }
+    .hero .wrapper img {
+        position: relative;
+        /* margin-bottom:-7em; */
+        z-index: 1;
+        width: 49.9em;
+        height: 57.8em;
+        overflow: hidden;
+    }
+    .features .content .article {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 5em;
+    }
+    .features .content .article h2 {
+        font-size: 3.2rem;
+        font-weight: 700;
+        margin-bottom: 0.69em;
+    }
+    .features .content .article p {
+        font-size: 2rem;
+        margin-bottom: 0;
+    }
+    .features .content .article .item{
+        width: 50%;
+        flex-basis: 5em;
+        flex-grow: 1;
+    }
+    .features .content .article .alerts {
+        width: 100%;
+        flex-basis: 50em;
+        flex-grow: 2;
+        margin-bottom: 7em;
+    }
+    .zigzag-wrap {
+        display: block;
+        position: relative;
+        top: -19em;
+    }
+    .feedback .user-comment .main-comment {
+        font-size: 3.5rem;
+        line-height: 4.67rem;
+        margin-bottom: 0.77em;
+    }
+    .feedback .user-comment .sub-comment {
+        font-size: 1.9rem;
+        line-height: 3.13rem;
+        margin-bottom: 2.53em;
+    }
+    .feedback .user-info {
+        display: flex;
+        flex-direction: row;
+        gap: 4.2em;
+    }
+    .feedback .user-image img {
+        /* margin: 0 auto; 
+        border-radius: 1.2em; */
+        width: 32.8em;
+        object-fit: cover;
+        margin-bottom: 3em;
+    }
+    .feedback .user-info .soc-icons {
+        margin-top: 9.22em;
+    }
+    .feedback .user-comment {
+        margin-bottom: 2.69em;
+        padding-right: 20em;
+    }
+    .feedback {
+        margin-bottom: 18.2em;
+    }
+    footer {
+        padding-top: 0.2em;
+        padding-bottom: 11.6em;
+    }
+}
+@media only screen and ( min-width: 900px){
+    .hero .wrapper{
+        width: 39em;
+    }
+}
+@media only screen and ( min-width: 943px){
+    .hero .wrapper{
+        width: 42em;
+    }
+    .features .content {
+        transform: skewY(5deg);
+    }
+    .features .content .article .item {
+        transform: skewY(-7deg);
+    }
+    .features .content .article .item img, h2, p {
+        transform: skewY(-5deg);
+    }
+
+    .features .content .article .item{
+        width: 50%;
+        flex-basis: 5em;
+        flex-grow: 1;
+    }
+    .features .content .article .alerts {
+        width: 50%;
+        flex-basis: 5em;
+        flex-grow: 1;
+        margin-bottom: 2;
+    }
+}
+@media only screen and ( min-width: 1000px){
+    .hero .wrapper{
+        width: 47em;
+    }
+    footer {
+        padding-top: 0.2em;
+        padding-bottom: 2.7em;
+    }
+    .zigzag-wrap img{
+        width: 18.23em;
+        height: 8.14em;
+    }
+}
+@media only screen and ( min-width: 1020px){
+    .hero .wrapper{
+        width: 50em;
+    }
+    .feedback {
+        display: flex;
+        gap: 2em;
+    }
+    .feedback .user-comment {
+        margin-bottom: 2.69em;
+        padding-right: 0;
+        text-align: right;
+    }
+    .feedback .user-image img {
+        /* margin: 0 auto; 
+        border-radius: 1.2em; */
+        width: 20.4em;
+    }
+}
+@media only screen and ( min-width: 1100px){
+    .feedback {
+        gap: 4.9em;
+    }
+}
+@media only screen and ( min-width: 1200px){
+    .container {
+        max-width: 120em;
+        margin: 3.3em 12em;
+    }
+    .feedback {
+        gap: 6.9em;
+    }
+}
+@media only screen and ( min-width: 1300px){
+    .feedback {
+        gap: 8.9em;
+    }
+}
